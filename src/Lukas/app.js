@@ -20,8 +20,8 @@ function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
+      <Link color="inherit" href="https://www.hamar-katedral.vgs.no/">
+        Katta
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -41,7 +41,7 @@ export default function Album() {
         <Toolbar>
           <CameraIcon sx={{ mr: 2 }} />
           <Typography variant="h6" color="inherit" noWrap>
-            Album layout
+            Om Lukas
           </Typography>
         </Toolbar>
       </AppBar>
@@ -62,12 +62,11 @@ export default function Album() {
               color="text.primary"
               gutterBottom
             >
-              Album layout
+              Jeg er Lukas
             </Typography>
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
-              Something short and leading about the collection below—its contents,
-              the creator, etc. Make it short and sweet, but not too short so folks
-              don&apos;t simply skip over it entirely.
+              Jeg går 1IM på Hamar Katedralskolen, jeg er interessert i IT og ønsker å gå det videre.
+              Jeg har laget mange prosjekter som jeg skal vise her.
             </Typography>
             <Stack
               sx={{ pt: 4 }}
@@ -75,8 +74,8 @@ export default function Album() {
               spacing={2}
               justifyContent="center"
             >
-              <Button variant="contained">Main call to action</Button>
-              <Button variant="outlined">Secondary action</Button>
+              <Button variant="contained">Bilder</Button>
+              <Button variant="outlined"><Link href='https://www.github.com/lukasolsen/' target="_noopener">Koder</Link></Button>
             </Stack>
           </Container>
         </Box>
@@ -99,11 +98,10 @@ export default function Album() {
                   />
                   <CardContent sx={{ flexGrow: 1 }}>
                     <Typography gutterBottom variant="h5" component="h2">
-                      Heading
+                      Bildene mine
                     </Typography>
                     <Typography>
-                      This is a media card. You can use this section to describe the
-                      content.
+                      Dette er 100% mine bilder, ikke stjel :D
                     </Typography>
                   </CardContent>
                   <CardActions>
@@ -127,7 +125,7 @@ export default function Album() {
           color="text.secondary"
           component="p"
         >
-          Something here to give the footer a purpose!
+          Plis gi meg penger, jeg er fattig.
         </Typography>
         <Copyright />
       </Box>
