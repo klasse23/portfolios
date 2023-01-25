@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+.page-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  
+  padding: 10px;
+  column-gap: 40px;
+}
+.grid-item {
+  width: 110px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 100px;
+  font-size: 30px;
+  cursor:pointer;
+  background-color: #21262c;
+  
+
+}
+.grid-item:hover {
+  opacity: 60%;
+}
